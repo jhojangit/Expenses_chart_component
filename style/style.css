@@ -94,16 +94,16 @@ img{
 .card_columns{
     display: flex;
     height: 200px;
+    width: 96%;
     align-items: end;
     gap: .5rem;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: relative;
 }
 
 .card_columns > div{
     background-color: var(--Softred);
     width: 10%;
-    height: 50%;
     border-radius: .3rem;
     cursor: pointer;
     transition: background-color .3s;
@@ -148,9 +148,7 @@ img{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: .5rem;
-    width: 95%;
-    background-color: aqua;
-    
+    width: 100%;
 }
 
 .card_days > p{
