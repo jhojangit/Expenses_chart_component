@@ -58,6 +58,10 @@ img{
     font-size: 1.2rem;
 }
 
+.card_header_logo{
+    
+}
+
 .card_data{
     background-color: var(--Verypaleorange);
     padding: 1rem;
@@ -79,12 +83,12 @@ img{
 
 .card_columns span{
     position: absolute;
-    margin-top: -35px;
-    margin-left: -2%;
+    margin-top: -40px;
+    margin-left: -3%;
     opacity: 0;
-    font-size: .6rem;
+    font-size: .8rem;
     color: white;
-    background-color: var(--Darkbrown);
+    background-color: rgba(66, 31, 31, 0.899);
     padding: .5rem;
     border-radius: .5rem;
     transition: opacity .5s;
